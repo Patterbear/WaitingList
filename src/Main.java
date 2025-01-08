@@ -59,6 +59,8 @@ public class Main {
         // Removes final comma and space
         formattedData = formattedData.substring(0, formattedData.length() - 2);
 
+        // For now this just prints the formatted data
+        // This is where the IT team will make it send the data to the database
         System.out.println(formattedData);
         showMessageDialog(null, "Patient added to the waiting list.");
     }
@@ -275,7 +277,7 @@ public class Main {
 
         // Create and place panel for submit button
         JPanel submitPanel = new JPanel();
-        submitPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 40)); // 20px spacing below
+        submitPanel.setLayout(new FlowLayout(FlowLayout.CENTER, 0, 40));
         submitPanel.add(submitButton);
         mainPanel.add(submitPanel, BorderLayout.SOUTH);
 
