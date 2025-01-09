@@ -94,7 +94,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Frame setup
-        JFrame frame = new JFrame("KGH Waiting List");
+        JFrame frame = new JFrame("KGH Laser Waiting List");
         frame.setResizable(true);
         frame.setMinimumSize(new Dimension(900, 600));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -111,7 +111,7 @@ public class Main {
 
         JLabel consultantLabel = new JLabel("PATIENT'S CONSULTANT");
         consultantLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        JComboBox<String> consultantDropdown = new JComboBox<>(new String[]{"BT", "PTN", "VJM", "VSA", "TSS", "WAA"});
+        JComboBox<String> consultantDropdown = new JComboBox<>(new String[]{"SSD", "BT", "PTN", "VJM", "VSA", "TSS", "WAA"});
 
         JLabel clinicDateLabel = new JLabel("CLINIC DATE");
         clinicDateLabel.setHorizontalAlignment(SwingConstants.CENTER);
