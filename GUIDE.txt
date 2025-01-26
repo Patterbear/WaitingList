@@ -1,0 +1,16 @@
+To setup and run this program:
+------------------------------------
+
+1. Open src/Main.java
+
+2. Replace "REPLACEME@email.com" on line 28 with KGH's actual waiting list email address
+
+3. Replace the email addresses on lines 33-39 with the consultants' actual email addresses
+
+4. Run 'compile.bat'
+
+5. The application 'WaitingList.jar' will now appear - double-click it to run the program
+
+-----------------------------------
+
+Now that you have WaitingList.jar, you can place it anywhere and run it

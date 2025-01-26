@@ -19,24 +19,24 @@ import static javax.swing.JOptionPane.showMessageDialog;
 
 public class Main {
 
-    // Credentials for sending the patient details (DO NOT CHANGE)
-    private static final String sender = "kghlaserwaitinglist@gmail.com";
-    private static final String password = "wypo msua tpct hpxe";
+    // Credentials for sending the patient details
+    private static final String sender = "kghlaserwaitinglist@gmail.com"; // DO NOT CHANGE
+    private static final String password = "wypo msua tpct hpxe"; // DO NOT CHANGE
 
     // Generic KGH waiting list email address which receives patients to be added
     // replace this with the real waiting list email
-    private static final String waitingListEmail = "kghlaserwaitinglist@gmail.com";
+    private static final String waitingListEmail = "REPLACEME@email.com";
 
     // Consultants' initials and email addresses
     // replace each dummy address with their real email addresses
     private static final Map<String, String> consultants = new HashMap<>() {{
-        put("SSD", "email@email.com");
-        put("BT", "email@email.com");
-        put("PTN", "email@email.com");
-        put("VJM", "email@email.com");
-        put("VSA", "email@email.com");
-        put("TSS", "email@email.com");
-        put("WAA", "email@email.com");
+        put("SSD", "REPLACEME@email.com");
+        put("BT", "REPLACEME@email.com");
+        put("PTN", "REPLACEME@email.com");
+        put("VJM", "REPLACEME@email.com");
+        put("VSA", "REPLACEME@email.com");
+        put("TSS", "REPLACEME@email.com");
+        put("WAA", "REPLACEME@email.com");
     }};
 
     // Format data method
@@ -223,7 +223,7 @@ public class Main {
         frame.setResizable(true);
         frame.setMinimumSize(new Dimension(900, 600));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        Image icon = Toolkit.getDefaultToolkit().getImage(Main.class.getResource("/icon.png"));
+        Image icon = Toolkit.getDefaultToolkit().getImage("res/icon.png");
         frame.setIconImage(icon);
         centreFrame(frame);
 
